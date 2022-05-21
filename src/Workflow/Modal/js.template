@@ -1,0 +1,46 @@
+import { AbstractModal } from 'hamtaraw';
+
+/**
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+export default class {{NAME}} extends AbstractModal {
+  /**
+   * @inheritDoc
+   * @see AbstractModal.getCtrl
+   */
+  getCtrl() {
+    return '{{CTRL}}';
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractModal.show
+   */
+  show(event) {
+    console.log('{{CTRL}} is showing');
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractModal.shown
+   */
+  shown(event) {
+    console.log('{{CTRL}} is shown');
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractModal.hide
+   */
+  hide(event) {
+    console.log('{{CTRL}} is hidding');
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractModal.hidden
+   */
+  hidden(event) {
+    console.log('{{CTRL}} is hidden');
+  }
+}

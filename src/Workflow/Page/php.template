@@ -1,0 +1,31 @@
+<?php
+namespace App\Controller\Page\{{NAME}};
+
+use Hamtaraw\Controller\Page\AbstractPage;
+use Hamtaraw\Controller\Page\Url;
+
+/**
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+class {{NAME}} extends AbstractPage
+{
+    /**
+     * @inheritDoc
+     * @see AbstractPage::Urls()
+     */
+    public function Urls()
+    {
+        return [
+            new Url('/{{NAME}}'),
+        ];
+    }
+
+    /**
+     * @inheritDoc
+     * @see AbstractPage::beforeRendering()
+     */
+    public function beforeRendering()
+    {
+        $this->Modules->Head()->setTitle("{{NAME}} page");
+    }
+}

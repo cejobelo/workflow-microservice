@@ -1,0 +1,19 @@
+<?php
+namespace App\Controller\Modal\{{NAME}};
+
+use Hamtaraw\Controller\Modal\AbstractModal;
+
+/**
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+class {{NAME}} extends AbstractModal
+{
+    /**
+     * @inheritDoc
+     * @see AbstractModal::getTitle()
+     */
+    public function getTitle()
+    {
+        return '{{NAME}}';
+    }
+}

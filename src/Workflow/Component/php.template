@@ -1,0 +1,21 @@
+<?php
+namespace App\Controller\Component\{{NAME}};
+
+use Hamtaraw\Controller\Component\AbstractComponent;
+
+/**
+ * {{CTRL}} back-end.
+ *
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+class {{NAME}} extends AbstractComponent
+{
+    /**
+     * @inheritDoc
+     * @see AbstractPage::beforeRendering()
+     */
+    public function beforeRendering()
+    {
+
+    }
+}

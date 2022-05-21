@@ -1,0 +1,28 @@
+<?php
+namespace App\Controller\Ajax;
+
+use Hamtaraw\Controller\Ajax\AbstractAjaxRequest;
+
+/**
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+class {{NAME}} extends AbstractAjaxRequest
+{
+    /**
+     * @inheritDoc
+     * @see AbstractAjaxRequest::InputConfigs()
+     */
+    public function InputConfigs()
+    {
+        return [];
+    }
+
+    /**
+     * @inheritDoc
+     * @see AbstractAjaxRequest::executeAndGetResponse()
+     */
+    public function executeAndGetResponse()
+    {
+        return $this->Modules->Response()->getSuccess("Your ajax request is working");
+    }
+}

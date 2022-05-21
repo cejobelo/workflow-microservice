@@ -1,0 +1,2 @@
+.hamtaraw-component[data-ctrl="{{CTRL}}"]
+  background-color: transparent

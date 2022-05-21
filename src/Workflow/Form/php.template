@@ -1,0 +1,19 @@
+<?php
+namespace App\Controller\Form\{{NAME}};
+
+use Hamtaraw\Controller\Form\AbstractForm;
+
+/**
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+class {{NAME}} extends AbstractForm
+{
+    /**
+     * @inheritDoc
+     * @see AbstractForm::executeAndGetResponse()
+     */
+    public function executeAndGetResponse()
+    {
+        return $this->Modules->Response()->setMessage("{{NAME}} form");
+    }
+}

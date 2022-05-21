@@ -1,0 +1,46 @@
+import { AbstractForm } from 'hamtaraw';
+
+/**
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+export default class {{NAME}} extends AbstractForm {
+  /**
+   * @inheritDoc
+   * @see AbstractModal.getCtrl
+   */
+  getCtrl() {
+    return '{{CTRL}}';
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractModal.beforeSubmit
+   */
+  beforeSubmit() {
+    console.log('{{CTRL}} beforeSubmit');
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractModal.afterSubmit
+   */
+  afterSubmit() {
+    console.log('{{CTRL}} afterSubmit');
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractModal.success
+   */
+  success(Response) {
+    console.log('{{CTRL}} success', Response);
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractModal.error
+   */
+  error(Response) {
+    console.log('{{CTRL}} error', Response);
+  }
+}

@@ -1,0 +1,24 @@
+import { AbstractComponent } from 'hamtaraw';
+
+/**
+ * {{CTRL}} front-end.
+ *
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+export default class {{NAME}} extends AbstractComponent {
+  /**
+   * @inheritDoc
+   * @see AbstractPage.getCtrl
+   */
+  getCtrl() {
+    return '{{CTRL}}';
+  }
+
+  /**
+   * @inheritDoc
+   * @see AbstractPage.init
+   */
+  init(oData) {
+    console.log('{{CTRL}} is loaded.');
+  }
+}

@@ -1,0 +1,2 @@
+.hamtaraw-page[data-ctrl="{{CTRL}}"]
+  background-color: transparent

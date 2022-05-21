@@ -1,0 +1,26 @@
+{
+    "name": "hamtaraw/workflow-microservice",
+    "description": "Hamtaraw's microservice for improve your workflow",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["hamtaraw", "framework", "microservice"],
+
+    "autoload": {
+        "psr-4": {
+            "Hamtaraw\\Microservice\\Workflow\\": "src/"
+        }
+    },
+
+    "require": {
+        "hamtaraw/core": "dev-main"
+    },
+
+    "authors": [
+        {
+            "name": "Phil'dy Jocelyn Belcou",
+            "email": "pj.belcou@gmail.com",
+            "homepage": "https://github.com/cejobelo",
+            "role": "Developer"
+        }
+    ]
+}
